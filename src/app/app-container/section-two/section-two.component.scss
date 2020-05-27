@@ -1,0 +1,14 @@
+@import "../shared-styles.scss";
+
+.section-container {
+    @extend %section-shared;
+    background-color: #3fb0ac;
+
+    .header {
+        @extend %headers-shared;
+    }
+
+    p {
+        @extend %paragaphs-shared;
+    }
+}
